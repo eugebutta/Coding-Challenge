@@ -25,7 +25,7 @@ Agregue un theme dark and ligth mode , para practicar un poco, me pareció diver
 Creo que podria mejorar el sort con regex o algo mas especifico para el caso alfanumerico. 
 Tabambien mejorar un poco el style general .
 
-Con un poco mas de timpo podria haber agreagado el testeo e2e  y deploy
+Con un poco mas de timpo podria haber agreagado el testeo e2e  
 
 
 
