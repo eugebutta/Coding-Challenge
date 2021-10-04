@@ -2,10 +2,14 @@
 # Prueba técnica — React developer
 
 Para levantar el proyecto : 
-Desde la terminal 
 Parado en la carpeta principal (/pruebachedoc) 
-instalar dep. (npm i)
-levantar pagina (npm start)
+```shell
+$ npm i 
+```
+```shell
+$ npm start
+```
+
 
 
 Trate de mantener un diseño basico, eficiente y modularizado del codigo. 
@@ -28,4 +32,4 @@ Tabambien mejorar un poco el style general .
 Con un poco mas de timpo podria haber agreagado el testeo e2e  
 
 
-
+## Diploy en **[Prueba Chedoc](https://prueba-chedoc.netlify.app/)**.
