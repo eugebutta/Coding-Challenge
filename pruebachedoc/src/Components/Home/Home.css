@@ -1,0 +1,45 @@
+
+.conteinerCard{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: auto;
+    height: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 16%;
+    padding-top: 10%;
+    transition: all 0.5s ease;
+}
+
+.cardHome{
+    width: 11rem;
+    height: 17rem;
+    background-color:#193c6187;
+    box-sizing: content-box;
+    border-radius: 36px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+
+.cardHome:hover {
+    transform: scale(1.1, 1.1);
+    box-shadow: 5px 5px 30px 15px rgba(228, 224, 224, 0.25), 
+      -5px -5px 30px 15px rgb(221, 216, 216);
+  }
+
+.coteinerHome{
+    display: flex;
+    flex-direction: column;
+}
+
+.text  {
+    display: flex;
+    color: white;
+    font-size: bold;
+    justify-content: center;
+    font-size: 200%;
+}

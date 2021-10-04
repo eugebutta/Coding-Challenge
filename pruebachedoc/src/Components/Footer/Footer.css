@@ -1,0 +1,57 @@
+.containerFooter {
+  display: flex;
+  flex-direction: column;
+  background-color: #1a76d2;
+  height: 27%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 2%;
+}
+.containerFooterCopyright {
+  width: 33%;
+  left: 20px;
+ margin-bottom: 3%;
+
+}
+
+.containerFooterLinks {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1%;
+}
+
+.a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.footerCopyright {
+  color: White;
+  font-weight: bold;
+  padding: 5;
+}
+.socialIcon {
+  display: flex;
+  justify-content: space-between;
+  width: 24%;
+}
+
+.conteinerIcons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.storeIcon{
+    display: flex;
+  justify-content: space-around;
+  width: 36%;
+  align-items: center;
+
+}

@@ -1,0 +1,85 @@
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    filter: drop-shadow(0em 3.5em .5em black);
+    animation: float 3s ease-in-out 0s infinite alternate;
+    margin-top: 5%;
+}
+
+.head {
+    position: relative;
+    background-color: rgb(26, 105, 66);
+    width: 100px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+
+.eyes {
+    width: 25px;
+    height: 20px;
+    background-color: black;
+    border-radius: 8px;
+    animation: 8s blink ease-in-out infinite 2s
+}
+
+.inner-eyes {
+    background-color: white;
+    opacity: 0.9;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.ears {
+    background-color: rgb(26, 105, 66);
+    height: 45px;
+    width: 250px;
+    position: absolute;
+    border-radius: 0 0 100px 100px;
+}
+
+
+.mouth {
+    position: absolute;
+    bottom: 20px;
+    width: 13px;
+    background-color: black;
+    height: 2px;
+    border-radius: 10px;
+}
+
+.body {
+    background-color: rgb(185, 143, 88);
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px 5px 50% 50%;
+}
+
+@keyframes blink {
+    3% {
+        transform: scale(1, 0);
+    }
+
+    4% {
+        transform: scale(1, 1);
+    }
+
+}
+
+@keyframes float {
+    100% {
+        transform: translateY(-20px);
+    }
+}
